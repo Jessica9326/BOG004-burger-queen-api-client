@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Burguer Queen - Foodelicious
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](src/images/LogoSample4.png)
 
-## Available Scripts
+## Proyecto
 
-In the project directory, you can run:
+Sistema de gestión de pedidos de Restaurante. La aplicación es Single Page App.
 
-### `npm start`
+## Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Scrum
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Git
 
-### `npm test`
+#### React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### API REST
 
-### `npm run build`
+## Historias de Usuario
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* HU1. Yo como meser@ quiero poder ingresar al sistema de pedidos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* HU2. Yo como meser@ quiero tomar el pedido del cliente para no depender de mi mala memoria, para saber cuánto cobrar, y enviarlo a la cocina para evitar errores y que se puedan ir preparando en orden.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* HU3. Yo como jefe de cocina quiero ver los pedidos de los clientes en orden y marcar cuáles están listos para saber qué se debe cocinar y avisar a los meserxs que un pedido está listo para servirlo a un cliente.
 
-### `npm run eject`
+* HU4. Yo como meser@ quiero ver los pedidos que están preparados para entregarlos rápidamente a l@s clientes que las hicieron.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* HU5. Yo como administrador(a) de tienda quiero gestionar a los usuarios de la plataforma para mantener actualizado la informacion de mis trabajadores.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* HU6. Yo como administrador(a) de tienda quiero gestionar los productos para mantener actualizado el menú.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Prototipos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Login**
+![Login](Prototipos/Login.jpg)
 
-## Learn More
+**Mesero**
+![Mesero Ordenes](Prototipos/Mesero_Ordenes.jpg)
+![Mesero Pedidos](Prototipos/Mesero-Pedidos.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Chef**
+![Chef](Prototipos/Chef.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Administrador**
+![Admin Empleados](Prototipos/Admin-Empleados.jpg)
+![Admin Productos](Prototipos/Admin_Producto.jpg)
 
-### Code Splitting
+## Usuarios para Ingreso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Administrador
 
-### Analyzing the Bundle Size
+**Email:** anita.borg@systers.xyz
+**password:** 123456
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Mesero
 
-### Making a Progressive Web App
+**Email:** waiter@foodelicious.com
+**password:** 123456
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Chef
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Email:** chef@foodelicious.com
+**password:** 123456
